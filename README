@@ -1,0 +1,11 @@
+Author Kai Windle 02/11/2016
+
+DialogSwapOut:
+Show's how to use one Dialog class with multiple views
+The example is provided as in, in the hopes it will one day
+help someone.
+
+Please note because this example is so simple and only to show how you can
+do the swap out using one dialog class that not all features are implemented.
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kaiwindle.dialogswapout.MainActivity">
+
+    <Button
+        android:text="Show EditText Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShowEditText"
+        android:layout_below="@+id/btnShowTextView"
+        android:layout_alignLeft="@+id/btnShowTextView"
+        android:layout_alignStart="@+id/btnShowTextView"
+        android:layout_alignRight="@+id/btnShowTextView"
+        android:layout_alignEnd="@+id/btnShowTextView" />
+
+    <Button
+        android:text="Show ImageView Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShowImageView"
+        android:layout_below="@+id/btnShowEditText"
+        android:layout_alignLeft="@+id/btnShowEditText"
+        android:layout_alignStart="@+id/btnShowEditText"
+        android:layout_alignRight="@+id/btnShowEditText"
+        android:layout_alignEnd="@+id/btnShowEditText" />
+
+    <Button
+        android:text="Show TextView Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/btnShowTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
